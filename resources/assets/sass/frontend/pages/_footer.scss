@@ -1,0 +1,37 @@
+section.footer {
+	color: white;
+}
+
+.footer-top {
+	padding: 100px 0;
+	.item-footer-top i,.item-footer-top svg {
+		color: $color-primary;
+		font-size: 22px;
+	}
+	p > label {
+		font-weight: bold;
+		margin-bottom: 0px;
+		margin-top: 1rem;
+		color: black !important;
+		font-size: 15px;
+	}
+	p {
+		font-size: 14px;
+		font-weight: 400;
+		color: #9a9a9a;
+		line-height: 1.6;
+		word-spacing: 1px;
+		margin-bottom: .5rem;
+	}
+}
+
+.footer-bottom {
+	background-color: $color-primary;
+	.sosmed {
+		.list-inline-item a {
+			i, svg {
+				color: white !important;
+			}
+		}
+	}
+}

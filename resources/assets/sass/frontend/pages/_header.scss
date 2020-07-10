@@ -1,0 +1,41 @@
+header.masthead {
+	height: 100vh;
+	min-height: 775px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-repeat: no-repeat;
+	position: relative;
+	background-size: cover;
+	&:before {
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 100%; 
+		top: 0;
+		left: 0;
+		opacity: .5;
+		background: #000;
+	}
+	.pos-header {
+		@media only screen and (max-width: 480px) {
+			margin-bottom: 0px !important;
+		}
+		
+	}
+	.content-header {
+		z-index: 100;
+		color: white;
+		h1 {
+			letter-spacing: 1px;
+			font-weight: 600px;
+			font-weight: 600;
+			word-spacing: 2px;
+			letter-spacing: 2px;
+			margin: 15px 0;
+			font-size: 30px;
+			@media only screen and (min-width: 480px) {
+				font-size: 60px;
+			}
+		}
+	}
+}

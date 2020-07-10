@@ -1,0 +1,76 @@
+.btn-contact {
+	background-color: $color-primary;
+	padding: 10px 30px !important;
+    border-radius: 6px !important;
+    text-transform: uppercase;
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    letter-spacing: 1px;
+    position: relative;
+    margin: 30px 2px 0;
+    transition: all .8s !important;
+    color: white;
+    &:hover, &:focus, &.active {
+        background-color: white !important;
+        border: 1px solid $color-primary;
+        color: $color-primary;
+    }
+}
+.btn-readmore {
+	padding: 10px 30px !important;
+    border-radius: 6px !important;
+    text-transform: uppercase;
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    letter-spacing: 1px;
+    position: relative;
+    margin: 30px 2px 0;
+    color: $color-primary !important;
+    border-color: $color-primary !important;
+    transition: all .8s !important;
+    &:hover, &:focus, &.active {
+    	color: white !important;
+    	background-color: $color-primary !important;
+        border-color: transparent;
+    }
+}
+
+.btn-header {
+    padding: 10px 30px !important;
+    border-radius: 6px !important;
+    text-transform: uppercase;
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    letter-spacing: 1px;
+    position: relative;
+    margin: 30px 2px 0;
+    border-radius: 4px !important;
+    border-color: transparent !important;
+    color: $color-primary !important;
+    background-color: white !important;
+    &:focus {
+        box-shadow:none !important;
+    }
+    @media only screen and (max-width: 480px) {
+        padding: 10px 15px !important;
+    }
+}
+
+.btn--left {
+    background-color: transparent !important;
+    color: white !important;
+    
+    &:hover {
+        border-color: white !important;
+    }
+}
+
+.btn--right {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    color: white !important;
+    &:hover {
+        border-color: white !important;
+    }
+
+}
